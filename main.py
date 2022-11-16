@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def main:
+def main():
   print("title")
   print("\n\n  body")
   
